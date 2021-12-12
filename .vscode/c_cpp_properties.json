@@ -1,0 +1,104 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/include",
+                "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/src",
+                "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/.pio/libdeps/seeed_xiao/OneButton/src",
+                "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/.pio/libdeps/seeed_xiao/FastLED/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/variants/XIAO_m0",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                "/home/gregorydepuille@sglk.local/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/include",
+                    "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/src",
+                    "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/.pio/libdeps/seeed_xiao/OneButton/src",
+                    "/home/gregorydepuille@sglk.local/workspaces/gdepuille/halima_lamp/.pio/libdeps/seeed_xiao/FastLED/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/variants/XIAO_m0",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                    "/home/gregorydepuille@sglk.local/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_SAMD_ZERO",
+                "__SAMD21__",
+                "__SAMD21G18A__",
+                "ARM_MATH_CM0PLUS",
+                "SEEED_XIAO_M0",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2886",
+                "USB_PID=0x802F",
+                "USB_PRODUCT=\"Seeeduino XIAO\"",
+                "USB_MANUFACTURER=\"Seeed\"",
+                "ARDUINO_ARCH_SAMD",
+                "USB_CONFIG_POWER=100",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/gregorydepuille@sglk.local/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
