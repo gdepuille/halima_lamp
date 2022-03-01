@@ -53,7 +53,7 @@ void modifyBrightness();
 typedef void (*SimplePatternList[])();
 SimplePatternList animationPatterns = { rainbow, rainbowWithGlitter, onlyGlitter, confetti, sinelon, juggle, bpm };
 CRGB colorPatterns[] = { 
-  CRGB::White, CRGB::Aqua, CRGB::Blue, CRGB::Red, CRGB::Orange, CRGB::Green,   
+  CRGB::White, CRGB::Aqua, CRGB::Blue, CRGB::Red, CRGB::Green,   
   CRGB::Yellow, CRGB::Purple 
 };
 
